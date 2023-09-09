@@ -1,0 +1,2 @@
+HTML tags are like keywords which that how web browser will format and display the content. Example <h1></h1> <p> </p>. 
+Every thing under the start tag and end tag is called element. Example <h1>This is my first day of learning</h1>

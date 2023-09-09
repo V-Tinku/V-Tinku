@@ -1,0 +1,12 @@
+The comment tag is used to insert comments in the source code. Comments are not rendered in the browsers.
+<!Doctype HTML>
+<html>
+<head>
+<title>Comments in HTML</title>
+</head>
+<body>
+<!--("Hello World!")
+}
+//-->
+</body>
+</html> 
