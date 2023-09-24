@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="First Name">First Name :</label><br>
+        <input type="text" placeholder="First Name" id="First Name" required min="3"> <br>
+        <label for="Last Name">Last Name :</label><br>
+        <input type="text" placeholder="Last Name" id="Last Name" required min="3"> <br>
+        <label for="Email">Enter Your Email :</label><br>
+        <input type="email" placeholder="abc@email.com" name="Email" id="Email" required min="3" max="30"><br>
+        <label for="Password">Enter Your Password :</label><br>
+        <input type="password" placeholder="Password" name="Password" id="Password" required><br>
+        <label for="Confirm Password">Confirm Password :</label><br>
+        <input type="password" placeholder="Re-Enter Password" name="Confirm Password" id="Confirm Password" required><br>
+        <label for="Age">Age :</label><br>
+        <input type="number" placeholder="Age" name="Age" id="Age" required min="0" max="150"><br>
+        <label for="Gender">Gender :</label><br>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Male" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female" value="Female"><br>
+        <fieldset>
+           <legend>Agree to Terms & Conditions</legend>
+            <label for="T&C">Yes</label>
+            <input type="checkbox" name="Agree to Terms & Conditions" id="T&C" required></fieldset><br>
+        <input type="submit" value="Sign Up"> <input type="reset" value="Reset">
+
+
+    </form>
+</body>
+</html>
