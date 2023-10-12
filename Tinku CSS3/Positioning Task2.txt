@@ -1,0 +1,8 @@
+
+
+Relative Positioning: When you use relative positioning for an element, it is positioned relative to its normal position in the document flow. So, if you move it "left" or "top," 
+it will be positioned relative to where it would have been if it were not moved. Other elements in the document flow still occupy their original positions.
+
+Absolute Positioning: When you use absolute positioning for an element, it is positioned relative to its nearest ancestor with a position property other than "static" (usually relative, 
+absolute, or fixed). This means it's taken out of the normal document flow, and its position is determined based on its nearest positioned ancestor, which can lead to elements overlapping 
+if not managed carefully. Other elements don't consider the absolute positioned element when determining their positions.

@@ -1,0 +1,5 @@
+
+(Z-Index)
+
+z-index is a CSS property used to control the stacking order of HTML elements in a web page when they overlap. Elements with a higher z-index value appear in front of elements with a lower z-index value. 
+It is commonly used when you have elements that overlap, such as positioned elements or elements with transparency. Code Example is Included in Task5.html file.

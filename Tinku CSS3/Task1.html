@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+    <style>
+        
+        .container{
+            position: relative;
+            height: 500px;
+            width: 500px;
+            border: 7px solid #ccc;
+        }
+
+        .Box{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            position: absolute;
+            text-align: center;
+        }
+        
+        .Box--A{
+            left: 150px;
+            top: 150px;
+            position: absolute;
+        }
+
+        .Box--B{
+            left: 30px;
+            top: 30px;
+            position: absolute
+        }
+
+        .Box--C{
+            right: 30px;
+            top: 30px;
+            position: absolute
+        }
+
+        .Box--D{
+            left: 30px;
+            bottom: 30px;
+            position: absolute
+        }
+
+        .Box--E{
+            right: 30px;
+            bottom: 30px;
+            position: absolute
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Box Box--A">A</div>
+        <div class="Box Box--B">B</div>
+        <div class="Box Box--C">C</div>
+        <div class="Box Box--D">D</div>
+        <div class="Box Box--E">E</div>
+    </div>
+</body>
+</html>
