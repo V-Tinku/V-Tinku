@@ -1,0 +1,43 @@
+
+1. justify-content:
+   - Role: This property determines how flex items are positioned along the main axis of the flex container.
+   - Values:
+     - flex-start: Items are packed at the start of the container.
+     - flex-end: Items are packed at the end of the container.
+     - center: Items are centered within the container.
+     - space-between: Items are evenly distributed with equal space between them.
+     - space-around: Items are evenly distributed with equal space around them.
+     - space-evenly: Items are evenly distributed with equal space around and between them.
+   - Example: justify-content: center; will center the flex items along the main axis of the container.
+
+2. align-items:
+   - Role: This property determines how flex items are aligned within the cross-axis of the flex container.
+   - Values:
+     - flex-start: Items are aligned at the start of the cross-axis.
+     - flex-end: Items are aligned at the end of the cross-axis.
+     - center: Items are centered within the cross-axis.
+     - baseline: Items are aligned based on their text baselines.
+     - stretch: Items are stretched to fill the container's cross-axis.
+   - Example: align-items: center; will center the flex items along the cross-axis of the container.
+
+3. gap (or row-gap and column-gap in the context of grid layout):
+   - Role: This property sets the space or gap between flex items in a flex container. 
+           It's particularly useful for adding spacing between items without the need for additional margin or padding.
+   - Example: gap: 10px; will create a 10-pixel gap between adjacent flex items.
+
+4. flex-direction:
+   - Role: This property defines the direction in which flex items are laid out within the flex container.
+   - Values:
+     - row: Items are arranged in a horizontal line (default).
+     - row-reverse: Items are arranged horizontally in reverse order.
+     - column: Items are arranged in a vertical line.
+     - column-reverse: Items are arranged vertically in reverse order.
+   - Example: flex-direction: column; will arrange the flex items vertically.
+
+5. flex-wrap:
+   - Role: This property controls whether flex items should wrap to a new line when there's not enough space in the flex container.
+   - Values:
+     - nowrap (default): Items are not allowed to wrap, and they may overflow the container.
+     - wrap: Items are allowed to wrap onto new lines if necessary.
+     - wrap-reverse: Items wrap in the reverse order if they overflow.
+   - Example: flex-wrap: wrap; allows flex items to wrap to a new line when the container's width is insufficient.

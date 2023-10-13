@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2537a4fc78.js" crossorigin="anonymous"></script>
+    <title>Pricing Cards</title>
+    <style>
+        .cards {
+            height: 100vh;
+            width: 90%;
+            background-color: #202842;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+
+        .pricingsection {
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           width: 80%; 
+           height: 500px;
+           top: 25px;
+           left: -8px;
+           padding: 32px, 48px, 32px, 48px;
+           gap: 32px;
+           background-color: #F4F2FD;
+        }
+
+        .pricingcard1 {
+            height: 363px;
+            width: 262px;
+            border-radius: 8px;
+            padding: 32px;
+            gap: 32px;
+            background-color: #ffff;
+            box-shadow: 10px 10px 10px #00000040;
+
+        }
+        .pricingcard2 {
+            height: 363px;
+            width: 262px;
+            border-radius: 8px;
+            padding: 32px;
+            gap: 32px;
+            background-color: #202842;
+            box-shadow: 10px 10px 10px #00000040;
+            color: #ffff;
+
+        }
+
+        .pricingcard3 {
+            height: 361px;
+            width: 262px;
+            border-radius: 8px;
+            padding: 32px;
+            gap: 32px;
+            background-color: #ffff;
+            box-shadow: 10px 10px 10px #00000040;
+
+        }
+
+        .header1 {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            color: #202842;
+        }
+
+        .header2 {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: #202842;
+        }
+        .price {
+            padding-top: 20px;
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 36px;
+        }
+        
+        .text li {
+            list-style: none;
+            display: flex;
+            padding-top: 10px;
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            
+        }
+        
+        .text i {
+            margin-right: 10px;
+            font-size: 22px;
+        }
+        .button {
+            padding: 20px 30px 20px 30px;
+        }
+
+        .button a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #202842;
+            border-radius: 50px;
+            height: 40px;
+            background-color: #202842;
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            line-height: 22px;
+            color: #ffff;
+        }
+
+        .pricingcard2 a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #202842;
+            border-radius: 50px;
+            height: 40px;
+            background-color: #ffff;
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            line-height: 22px;
+            color: #202842;
+        }
+
+        .button a:hover {
+            background-color:green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cards">
+
+    <div class="pricingsection">
+
+    <div class="pricingcard1">
+        <div class="header1">Free Plan</div>
+        <div class="header2">For personal</div>
+        <div class="price">$0</div>
+        <div class="text">
+        <ul>
+            <li><i class="fa-solid fa-circle-check"></i>1 Users</li>
+            <li><i class="fa-solid fa-circle-check"></i>4 Web mails</li>
+            <li><i class="fa-solid fa-circle-check"></i>Responsive Website</li>
+            <li><i class="fa-solid fa-circle-check"></i>Free SSL</li>
+        </ul>
+        </div>
+        <div class="button">
+        <a href="#" target="_blank">Subscribe now</a>
+        </div>
+        </div>
+
+    <div class="pricingcard2">
+        <div class="header1" style="color: #ffff;">Free Plan</div>
+        <div class="header2" style="color: #ffff;">For personal</div>
+        <div class="price">$29</div>
+        <div class="text">
+            <ul>
+                <li><i class="fa-regular fa-circle-check"></i>4 Users</li>
+                <li><i class="fa-regular fa-circle-check"></i>10 Web mails</li>
+                <li><i class="fa-regular fa-circle-check"></i>Responsive Website</li>
+                <li><i class="fa-regular fa-circle-check"></i>Free SSL</li>
+            </ul>
+        </div>
+        <div class="button">
+            <a href="#" target="_blank">Subscribe now</a>
+        </div>
+        </div>
+
+    <div class="pricingcard3">
+        <div class="header1">Free Plan</div>
+        <div class="header2">For personal</div>
+        <div class="price">$49</div>
+        <div class="text">
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i>Unlimited Users</li>
+                <li><i class="fa-solid fa-circle-check"></i>Unlimited Web mails</li>
+                <li><i class="fa-solid fa-circle-check"></i>Responsive Website</li>
+                <li><i class="fa-solid fa-circle-check"></i>Free SSL + SEO</li>
+            </ul>
+        </div>
+        <div class="button">
+            <a href="#" target="_blank">Subscribe now</a>
+        </div>
+        </div>
+    </div> 
+</div>
+</body>
+</html>

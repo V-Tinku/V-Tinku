@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC-Indian Railways</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2537a4fc78.js" crossorigin="anonymous"></script>
+    <style>
+
+        * {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+        .container {
+            background-image: url(image.png);
+            background-repeat: no-repeat;
+            background-position: right top;
+            height: 1036px;
+            width: 100vw;
+        }
+
+        .container select:hover {
+            cursor: pointer;
+        }
+
+        .logo{
+            padding-top: 20px;
+            position: relative;
+        }
+        .nav1 {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1000px;
+        }
+
+        .navitems li{
+            display: inline-block;
+            list-style-type: none;
+            padding-top: 20px;
+        }
+        .navitems a {
+            padding: 10px;
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .login {
+            display: flex;
+            justify-content: flex-end;
+            max-width: 850px;
+        }
+
+        .login li {
+            display: inline-block;
+            list-style-type: none;
+            
+        }
+
+        .login a {
+            padding: 10px;
+            text-decoration: none;
+            color: #000;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 0 10px 0 10px;
+            font-weight: 500;
+            font-size: 15px;
+
+        }
+
+        .mainhead {
+            font-weight: 700;
+            font-size: 20px;
+            padding-top: 50px;
+            margin-left: 115px;
+            color: #333;
+        }
+
+        .mainpara {
+            padding-left: 106px;
+        }
+
+        .mainpara p {
+            display: inline;
+            padding-top: 10px;
+            margin: 0 10px 0 10px;
+            font-weight: 500;
+            font-size: 33px;
+           
+
+        }
+
+        .booking {
+            padding-top: 80px;
+            padding-left: 105px;
+        }
+
+        .booking a {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px 0 10px;
+            color:#333;
+
+        }
+        .booking i {
+            padding: 10px;
+        }
+
+        .station {
+            height: 120px;
+            width: 620px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px soild #ccc;
+            padding-top: 50px;
+            padding-left: 80px;
+            
+            
+            
+        }
+
+        .station i {
+            margin-right: 10px;
+        }
+
+        .sync a {
+            font-size: 20px;
+            
+        }
+
+        .station select {
+            border: none;
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        .datenseat {
+            height: 120px;
+            width: 620px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px soild #ccc;
+            padding-top: 50px;
+            padding-left: 80px;
+            
+        }
+        .datenseat select {
+            border: none;
+            font-weight: 400;
+            font-size: 15px;
+        }
+        .datenseat i {
+            margin-right: 10px;
+        }
+
+        .searchtrain{
+            padding-top: 100px;
+            padding-left: 80px;
+        }
+
+
+
+        .searchtrain a {
+            background-color: #01BB0A;
+            text-decoration: none;
+            font-weight: 900;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 81px;
+            width: 620px;
+            color: #fff;
+            border-radius: 10px;
+        }
+        .searchtrain i {
+            color: #fff;
+            padding: 15px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav1">
+            <div class="logo">
+                <img src="Logo.png" alt="Irctc">
+            </div>
+            <nav class="navitems">
+            <ul>
+                <li><a href="#">Ask Disha</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Alerts</a></li>
+            </ul>
+            </nav>
+            </div>
+
+            <nav class="login">
+                <ul>
+                    <li><a style="background-color: rgb(255, 79, 15); color: #fff;" href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Agent Login</a></li>
+                </ul>   
+            </nav>
+
+            <div class="mainhead">
+                <h1>Indian Railways</h1>
+            </div>
+            <div class="mainpara">
+                <p style="color: rgb(49, 212, 49);">Saftey</p>
+                <p style="color: rgb(238, 161, 19);">Security</p>
+                <p style="color: rgb(17, 17, 216);">Punctuality</p>
+            </div>
+
+            <div class="booking">
+                <a href="#" style="color: #fff; background-color: #213D77;"><i style="color: #fff;" class="fa-solid fa-ticket"></i>BOOK Ticket</a>
+                <a href="#"><i class="fa-solid fa-check"></i>PNR Status</a>
+                <a href="#"><i class="fa-solid fa-square-poll-vertical"></i>Charts / Vacancy</a>
+            </div>
+
+            <div class="station">
+                <div class="city1">
+                <form>
+                    <label for="fromStation"></label>
+                    <select id="fromStation" name="fromStation">
+                        <option value="From">From</option>
+                        <option value="station1">Bangalore</option>
+                        <option value="station2">Chennai</option>
+                        <option value="station3">Kasaragod</option>
+                    </select>
+                    <h2><i class="fa-solid fa-train"></i>Bangalore</h2>
+                    <p>KSR-Bangalore</p>
+                    </form>
+                </div>
+
+                <div class="sync">
+                    <a href="#"><i style="color: #ccc;" class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                </div>
+
+                <div class="city1">
+                <form>
+                    <label for="toStation"></label>
+                    <select id="toStation" name="toStation">
+                        <option value="To">To</option>
+                        <option value="station1">Bangalore</option>
+                        <option value="station2">Chennai</option>
+                        <option value="station3">Kasaragod</option>
+                    </select>
+                    <h2><i class="fa-solid fa-train"></i>Kasaragod</h2>
+                    <p>KSD-Kasaragod</p>
+                </form>
+                </div>
+            </div>
+
+                <div class="datenseat">
+                    <div class="date">
+                    <form>
+                        <label for="fromStation"></label>
+                        <select id="fromStation" name="fromStation">
+                            <option value="From">Date</option>
+                            <option value="station1">01 Aug 23</option>
+                            <option value="station2">02 Aug 23</option>
+                            <option value="station3">03 Aug 23</option>
+                            <option value="station1">04 Aug 23</option>
+                            <option value="station2">05 Aug 23</option>
+                            <option value="station3">06 Aug 23</option>
+                            <option value="station1">07 Aug 23</option>
+                            <option value="station2">08 Aug 23</option>
+                            <option value="station3">09 Aug 23</option>
+                            <option value="station1">10 Aug 23</option>
+                            <option value="station2">11 Aug 23</option>
+                            <option value="station3">12 Aug 23</option>
+                            <option value="station1">13 Aug 23</option>
+                            <option value="station2">14 Aug 23</option>
+                            <option value="station3">15 Aug 23</option>
+                        </select>
+                        <h2><i class="fa-solid fa-calendar-days"></i>01 Aug 23</h2>
+                        <p>Tuesday</p>
+                        </form>
+                    </div>
+    
+                    <div class="class">
+                        <form>
+                            <label for="fromStation"></label>
+                            <select id="fromStation" name="fromStation">
+                                <option value="From">Class</option>
+                                <option value="station1">1A One Tier</option>
+                                <option value="station2">2A Two Tier</option>
+                                <option value="station3">3A Three Tier</option>
+                                <option value="station3">SL Sleeper</option>
+                                <option value="station3">GN General</option>
+                            </select>
+                            <h2><i class="fa-regular fa-circle-user"></i>3A</h2>
+                            <p>AC 3 Tier</p>
+                            </form>    
+                    </div>
+    
+                    <div class="seat">
+                    <form>
+                        <label for="toStation"></label>
+                        <select id="toStation" name="toStation">
+                            <option value="To">Seat Type</option>
+                            <option value="station1">Tatkal</option>
+                            <option value="station2">Senior Citizen</option>
+                            <option value="station3">Ladies</option>
+                            <option value="station3">General</option>
+                            <option value="station3">Premium Tatkal</option>
+                        </select>
+                        <h2><i class="fa-solid fa-couch"></i>TATKAL</h2>
+                        <p>AC 3 Tier</p>
+                    </form>
+                    </div>
+                </div>
+
+                <div class="searchtrain">
+                    <a href="#">Search Train <i class="fa-solid fa-right-long"></i></a>
+                </div>
+        
+               
+           
+    </div>
+</body>
+</html>
