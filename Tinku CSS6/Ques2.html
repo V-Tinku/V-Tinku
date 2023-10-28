@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img{
+            width: 30%;
+            margin: 10px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .gallery img{
+                width: 45%;
+            } 
+        }
+
+        @media screen and (max-width: 500px){
+            .gallery img {
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://fastly.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA" alt="">
+        <img src="https://fastly.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA" alt="">
+        <img src="https://fastly.picsum.photos/id/821/200/300.jpg?hmac=-CLZlHMcIt8hXlUFZ4-3AvLYDsUJSwUeTri-zHDlnoA" alt="">
+    </div>
+</body>
+</html>
