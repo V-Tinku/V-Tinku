@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Nav 1</title>
+    <style>
+        nav a {
+            color: green;
+        }
+        nav > h2 {
+            color: red;
+            background-color: snow ;
+        }
+        ul + p {
+            color: red;
+        }
+
+        a[href] {
+            color: red;
+            text-decoration: none;
+        } 
+        a[class="active"] {
+            color: blue;
+            text-decoration: underline;
+        }
+        a[target="_self"] {
+            background-color: grey;
+        }
+        p:last-child::after {
+            content: "......";
+        }
+        li::marker{
+            color: green;
+        }
+        p:nth-child(even)::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>TOI</h2>
+            <div>
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="#" class="active" target="_self">About</a></li>
+                    <li><a href="#" target="_blank">Services</a></li>
+                    <li><a href="#" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+            <p>Times Of India</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores, maiores suscipit facere reiciendis culpa ea minima ipsam pariatur a quia neque ad, rem accusantium quo ratione. Repellendus, illum harum?</p>
+            <p>Read Articles</p>
+        </nav>
+    </header>
+</body>
+</html>
